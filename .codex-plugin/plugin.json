@@ -1,0 +1,37 @@
+{
+  "name": "clarity",
+  "version": "0.2.0",
+  "description": "Редактирует русские рабочие тексты до ясной, плотной и естественной прозы; диагностирует канцелярит и машинно-ровные паттерны без ложных выводов об авторстве.",
+  "author": {
+    "name": "kyzdes",
+    "url": "https://github.com/kyzdes"
+  },
+  "homepage": "https://github.com/kyzdes/clarity-skill",
+  "repository": "https://github.com/kyzdes/clarity-skill",
+  "keywords": [
+    "russian",
+    "editing",
+    "clarity",
+    "human-writing",
+    "ai-style"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Clarity",
+    "shortDescription": "Ясная русская проза без канцелярита и машинной ровности",
+    "longDescription": "Редактирует русские рабочие тексты по проверяемому методу: сначала смысл и структура, затем ясность, сжатие, признаки машинно-ровного письма и финальная проверка живого голоса.",
+    "developerName": "kyzdes",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/kyzdes/clarity-skill",
+    "defaultPrompt": [
+      "Перепиши текст ясно и по-человечески.",
+      "Найди, почему текст звучит как ИИ.",
+      "Сократи текст без потери смысла."
+    ],
+    "brandColor": "#1F5A45"
+  }
+}
